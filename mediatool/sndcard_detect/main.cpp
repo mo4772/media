@@ -1,6 +1,8 @@
 #include <string>
 #include <iostream>
 #include <cstdio>
+#include <codecvt>
+#include <locale>
 #include "ortp/ortp.h"
 #include "ortp/payloadtype.h"
 #include "mediastreamer2/mediastream.h"
@@ -59,6 +61,7 @@ int main()
     const MSList* pCardList = ms_snd_card_manager_get_list(manager);
     while (pCardList != NULL)
     {
+
         MSSndCard *pCard = (MSSndCard*)pCardList->data;
         std::cout<<"snd card id=====>"<<U2G(pCard->id)<<",name=====>"<<U2G(pCard->name)<<std::endl;
         pCardList = pCardList->next;

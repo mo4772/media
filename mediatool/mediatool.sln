@@ -5,6 +5,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sndcard_detect", "sndcard_d
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "webcarm_detect", "webcarm_detect\webcarm_detect.vcxproj", "{5E92E312-5528-471B-942D-D392FAA350DD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "audiostream", "audiostream\audiostream.vcxproj", "{07BDD2DF-07E8-4B33-AC51-B48B3BC36C6E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "videostream", "videostream\videostream.vcxproj", "{25632BFD-A28A-4F18-8A9D-9EA8F537256A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +23,14 @@ Global
 		{5E92E312-5528-471B-942D-D392FAA350DD}.Debug|Win32.Build.0 = Debug|Win32
 		{5E92E312-5528-471B-942D-D392FAA350DD}.Release|Win32.ActiveCfg = Release|Win32
 		{5E92E312-5528-471B-942D-D392FAA350DD}.Release|Win32.Build.0 = Release|Win32
+		{07BDD2DF-07E8-4B33-AC51-B48B3BC36C6E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{07BDD2DF-07E8-4B33-AC51-B48B3BC36C6E}.Debug|Win32.Build.0 = Debug|Win32
+		{07BDD2DF-07E8-4B33-AC51-B48B3BC36C6E}.Release|Win32.ActiveCfg = Release|Win32
+		{07BDD2DF-07E8-4B33-AC51-B48B3BC36C6E}.Release|Win32.Build.0 = Release|Win32
+		{25632BFD-A28A-4F18-8A9D-9EA8F537256A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25632BFD-A28A-4F18-8A9D-9EA8F537256A}.Debug|Win32.Build.0 = Debug|Win32
+		{25632BFD-A28A-4F18-8A9D-9EA8F537256A}.Release|Win32.ActiveCfg = Release|Win32
+		{25632BFD-A28A-4F18-8A9D-9EA8F537256A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
