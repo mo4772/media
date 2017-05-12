@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="aec">
+      <UniqueIdentifier>{37f6f3bb-1507-4498-8b7f-af7abffabb66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="agc">
+      <UniqueIdentifier>{49497e01-7c7a-4418-841e-7542d0c21a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ns">
+      <UniqueIdentifier>{5427942c-b724-4cd0-ae17-c344e70630b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vad">
+      <UniqueIdentifier>{89e57cc2-431d-4937-9042-7f2059f9247b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zam">
+      <UniqueIdentifier>{9bd21604-c651-4f6d-92fa-d8a0bb383a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aec\include">
+      <UniqueIdentifier>{d3c41214-bfe1-4088-b365-e50ed79befa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="agc\include">
+      <UniqueIdentifier>{a2411cc5-feab-4384-8920-3ae57149016c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vad\mock">
+      <UniqueIdentifier>{a5999c6f-6a6b-45d3-8240-52f2f96a50e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vad\include">
+      <UniqueIdentifier>{a45db076-3b08-4687-8c8e-0025225b7cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ns\include">
+      <UniqueIdentifier>{3af21b17-fc82-493e-9230-eacd9d83ee77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{53965df7-aeba-44fb-a71e-19fd2a0545a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aec\aec_common.h">
+      <Filter>aec</Filter>
+    </ClInclude>
+    <ClInclude Include="aec\aec_core.h">
+      <Filter>aec</Filter>
+    </ClInclude>
+    <ClInclude Include="aec\aec_core_internal.h">
+      <Filter>aec</Filter>
+    </ClInclude>
+    <ClInclude Include="aec\aec_rdft.h">
+      <Filter>aec</Filter>
+    </ClInclude>
+    <ClInclude Include="aec\aec_resampler.h">
+      <Filter>aec</Filter>
+    </ClInclude>
+    <ClInclude Include="aec\echo_cancellation_internal.h">
+      <Filter>aec</Filter>
+    </ClInclude>
+    <ClInclude Include="aec\include\echo_cancellation.h">
+      <Filter>aec\include</Filter>
+    </ClInclude>
+    <ClInclude Include="agc\analog_agc.h">
+      <Filter>agc</Filter>
+    </ClInclude>
+    <ClInclude Include="agc\digital_agc.h">
+      <Filter>agc</Filter>
+    </ClInclude>
+    <ClInclude Include="agc\include\gain_control.h">
+      <Filter>agc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vad\vad_core.h">
+      <Filter>vad</Filter>
+    </ClInclude>
+    <ClInclude Include="vad\vad_filterbank.h">
+      <Filter>vad</Filter>
+    </ClInclude>
+    <ClInclude Include="vad\vad_gmm.h">
+      <Filter>vad</Filter>
+    </ClInclude>
+    <ClInclude Include="vad\vad_sp.h">
+      <Filter>vad</Filter>
+    </ClInclude>
+    <ClInclude Include="vad\mock\mock_vad.h">
+      <Filter>vad\mock</Filter>
+    </ClInclude>
+    <ClInclude Include="vad\include\vad.h">
+      <Filter>vad\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vad\include\webrtc_vad.h">
+      <Filter>vad\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ns\defines.h">
+      <Filter>ns</Filter>
+    </ClInclude>
+    <ClInclude Include="ns\ns_core.h">
+      <Filter>ns</Filter>
+    </ClInclude>
+    <ClInclude Include="ns\nsx_core.h">
+      <Filter>ns</Filter>
+    </ClInclude>
+    <ClInclude Include="ns\nsx_defines.h">
+      <Filter>ns</Filter>
+    </ClInclude>
+    <ClInclude Include="ns\windows_private.h">
+      <Filter>ns</Filter>
+    </ClInclude>
+    <ClInclude Include="ns\include\noise_suppression.h">
+      <Filter>ns\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ns\include\noise_suppression_x.h">
+      <Filter>ns\include</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_audio.h" />
+    <ClInclude Include="typedefine.h" />
+    <ClInclude Include="other\arch.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="other\complex_fft_tables.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="other\delay_estimator.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="other\delay_estimator_internal.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="other\delay_estimator_wrapper.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="other\fft4g.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="other\real_fft.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="other\resample_by_2_internal.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="other\resample_sse.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="other\ring_buffer.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="other\signal_processing_library.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="other\speex_resampler.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="other\spl_inl.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="other\stack_alloc.h">
+      <Filter>other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aec\aec_core.c">
+      <Filter>aec</Filter>
+    </ClCompile>
+    <ClCompile Include="aec\aec_core_sse2.c">
+      <Filter>aec</Filter>
+    </ClCompile>
+    <ClCompile Include="aec\aec_rdft.c">
+      <Filter>aec</Filter>
+    </ClCompile>
+    <ClCompile Include="aec\aec_rdft_sse2.c">
+      <Filter>aec</Filter>
+    </ClCompile>
+    <ClCompile Include="aec\aec_resampler.c">
+      <Filter>aec</Filter>
+    </ClCompile>
+    <ClCompile Include="aec\echo_cancellation.c">
+      <Filter>aec</Filter>
+    </ClCompile>
+    <ClCompile Include="agc\analog_agc.c">
+      <Filter>agc</Filter>
+    </ClCompile>
+    <ClCompile Include="agc\digital_agc.c">
+      <Filter>agc</Filter>
+    </ClCompile>
+    <ClCompile Include="vad\vad_core.c">
+      <Filter>vad</Filter>
+    </ClCompile>
+    <ClCompile Include="vad\vad_filterbank.c">
+      <Filter>vad</Filter>
+    </ClCompile>
+    <ClCompile Include="vad\vad_gmm.c">
+      <Filter>vad</Filter>
+    </ClCompile>
+    <ClCompile Include="vad\vad_sp.c">
+      <Filter>vad</Filter>
+    </ClCompile>
+    <ClCompile Include="vad\webrtc_vad.c">
+      <Filter>vad</Filter>
+    </ClCompile>
+    <ClCompile Include="ns\noise_suppression.c">
+      <Filter>ns</Filter>
+    </ClCompile>
+    <ClCompile Include="ns\noise_suppression_x.c">
+      <Filter>ns</Filter>
+    </ClCompile>
+    <ClCompile Include="ns\ns_core.c">
+      <Filter>ns</Filter>
+    </ClCompile>
+    <ClCompile Include="ns\nsx_core.c">
+      <Filter>ns</Filter>
+    </ClCompile>
+    <ClCompile Include="ns\nsx_core_c.c">
+      <Filter>ns</Filter>
+    </ClCompile>
+    <ClCompile Include="filter_audio.c" />
+    <ClCompile Include="other\complex_bit_reverse.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\complex_fft.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\copy_set_operations.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\cross_correlation.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\delay_estimator.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\delay_estimator_wrapper.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\division_operations.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\dot_product_with_scale.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\downsample_fast.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\energy.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\fft4g.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\float_util.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\get_scaling_square.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\high_pass_filter.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\min_max_operations.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\randomization_functions.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\real_fft.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\resample_48khz.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\resample_by_2.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\resample_by_2_internal.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\resample_fractional.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\ring_buffer.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\speex_resampler.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\spl_init.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\spl_sqrt.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\spl_sqrt_floor.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\splitting_filter.c">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\vector_scaling_operations.c">
+      <Filter>other</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
